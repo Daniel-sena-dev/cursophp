@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Apresente-se para nós</h1>
+    </header>
+    <section>
+        <form action="cad.php" method="get" autocomplete="on">
+            <label for="iNome">Nome</label>
+            <input type="text" name="nome" id="iNome" required autocomplete="name">
+            <label for="iSobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="iSobrenome" required autocomplete="family-name">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </section>
+</body>
+</html>
